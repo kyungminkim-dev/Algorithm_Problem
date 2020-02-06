@@ -1,6 +1,6 @@
 # 문제
 
-import heapq
+'''import heapq
 def solution(scoville, K):
     answer = 0
     heapq.heapify(scoville)
@@ -29,4 +29,5 @@ def solution(scoville, K):
             else:
                 flag2 = True
                 break
-    return answer
+    return answer 
+'''
