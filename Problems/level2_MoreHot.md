@@ -1,6 +1,6 @@
 #### 문제 <https://programmers.co.kr/learn/courses/30/lessons/42626>
 
-
+---
 ```
 import heapq
 def solution(scoville, K):
@@ -34,7 +34,7 @@ def solution(scoville, K):
                 break
     return answer 
 ```
-
+---
 
 ### 고찰
 **문제를 처음 풀었을때는 python내장 모듈인 heapq를 사용하지 않고 list를 사용하여 풀었다. 그랬더니 효율성 부분에서 전부 틀리고 말았다. 그 순간부터 더 효율적인 자료구조를 찾다가 힙(heap)이라는것을 발견했다. 구글에 python heap을 검색해서 공부한 뒤 코드를 수정하니 효율성 테스트케이스 5문제를 모두 통과하게 되었다. 
