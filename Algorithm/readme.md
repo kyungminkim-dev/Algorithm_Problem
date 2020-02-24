@@ -1,1 +1,1 @@
-**Practice example algorithms in book.**
+#### 알고리즘을 공부하면서 따로 정리해 놓은 곳입니다. 
