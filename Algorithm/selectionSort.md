@@ -2,15 +2,13 @@
 - 선택정렬은 가장 단순한 정렬알고리즘으로 가장 작은 숫자를 탐색하여, 가장 왼쪽부터 바꾸어 나간다. 가장 작은 숫자를 선택하기 때문에 선택정렬 이라고 한다.
 ---
 ```
-def selectionSort(arr):
+def selectionSort(arr): #오름차순 정렬
     for i in range(len(arr)):  
         minIndex = i              
         for j in range(i+1,len(arr)):
             if arr[minIndex] > arr[j]:
                 minIndex = j 
-        temp = arr[i] 
-        arr[i] = arr[minIndex]
-        arr[minIndex] = temp
+        arr[minIndex], arr[i] = arr[i], arr[minIdex]
     return arr
 ```
 ---
