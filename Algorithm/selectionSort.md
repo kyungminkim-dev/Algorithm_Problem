@@ -3,7 +3,7 @@
 ---
 ```
 def selectionSort(arr): #오름차순 정렬
-    for i in range(len(arr)):  
+    for i in range(len(arr)-1):  
         minIndex = i              
         for j in range(i+1,len(arr)):
             if arr[minIndex] > arr[j]:
